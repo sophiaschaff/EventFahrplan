@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hackmas26 Schedule</string>
+    <string name="app_name">39C3 Schedule</string>
     <string name="app_hardcoded_subtitle">
-        27. - 30.08.26, Schloss Ottenschlag
+        December 27–30 2025, Congress Center Hamburg
     </string>
     <string name="conference_name" translatable="false">39C3</string>
     <string name="copyright_logo">
-        Grafik, Gestaltung und Design: sqwischi, helena, pheeef und fussel
+        39C3 Power Cycles. Design by Nina Bender and Bernd Volmer
     </string>
     <string name="about_logo_content_description">
-        a friendly blob
+        39C3 Power Cycles logo
     </string>
 </resources>
