@@ -7,3 +7,8 @@ signing.ccc39c3-release.keystoreFilePath=/home/USERNAME/.android/ccc39c3-release
 signing.ccc39c3-release.keystorePassword="PASSWORD"
 signing.ccc39c3-release.keyAlias="ccc39c3"
 signing.ccc39c3-release.keyPassword="ANOTHERPASSWORD"
+
+signing.hackmas26-release.keystoreFilePath=/home/USERNAME/.android/hackmas26-release-key.keystore
+signing.hackmas26-release.keystorePassword="PASSWORD"
+signing.hackmas26-release.keyAlias="hackmas26"
+signing.hackmas26-release.keyPassword="ANOTHERPASSWORD"

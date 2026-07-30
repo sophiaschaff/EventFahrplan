@@ -24,8 +24,8 @@ android {
     buildToolsVersion = config.versions.build.tools.get()
 
     defaultConfig {
-        versionCode = 121
-        versionName = "1.77.1"
+        versionCode = 120
+        versionName = "1.77.0"
         minSdk = config.versions.min.sdk.get().toInt()
         targetSdk = config.versions.target.sdk.get().toInt()
         base.archivesName = "Fahrplan-$versionName"
@@ -83,8 +83,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules/proguard-project.txt",
                 "proguard-rules/okhttp3.pro",
-                "proguard-rules/okio.pro",
-                "proguard-rules/zstd.pro",
+                "proguard-rules/okio.pro"
             )
         }
     }
@@ -140,6 +139,29 @@ android {
             buildConfigField("boolean", "ENABLE_ENGELSYSTEM_SHIFTS", "true")
             resValue("string", "preference_hint_engelsystem_json_export_url", """"https://engel.events.ccc.de/shifts-json-export?key=YOUR_KEY"""")
             buildConfigField("String", "SOCIAL_MEDIA_HASHTAGS_HANDLES", """"#39c3 #fahrplan"""")
+            buildConfigField("String", "TRACE_DROID_EMAIL_ADDRESS", """"tobias.preuss+39c3@googlemail.com"""")
+            buildConfigField("String", "SCHEDULE_FEEDBACK_URL", """""""")
+        }
+        create("hackmas26") {
+            dimension = defaultDimension
+            applicationId = "info.metadude.android.hackmas.schedule"
+            versionName = "${defaultConfig.versionName}-Hackmas-Edition"
+            buildConfigField("String", "GOOGLE_PLAY_URL", """"https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"""")
+            buildConfigField("String", "F_DROID_URL", """"https://f-droid.org/packages/info.metadude.android.congress.schedule"""")
+            buildConfigField("String", "SCHEDULE_URL", """"https://fahrplan.events.ccc.de/congress/2025/fahrplan/schedules/schedule.xml"""")
+            buildConfigField("String", "SCHEDULE_FILE_FORMAT", """"schedule_v1_xml"""")
+            buildConfigField("String", "EVENT_URL", """""""")
+            buildConfigField("String", "EVENT_WEBSITE_URL", """"https://hack-mas.at/"""")
+            buildConfigField("String", "EVENT_POSTAL_ADDRESS", """"Schloss 1, 3631 Ottenschlag"""")
+            buildConfigField("String", "SERVER_BACKEND_TYPE", """"frab"""")
+            buildConfigField("boolean", "SHOW_APP_DISCLAIMER", "true")
+            buildConfigField("boolean", "ENGAGE_C3NAV_APP_INSTALLATION", "false")
+            buildConfigField("String", "C3NAV_URL", """"https://39c3.c3nav.de/l/"""")
+            buildConfigField("boolean", "ENABLE_ALTERNATIVE_SCHEDULE_URL", "false")
+            buildConfigField("boolean", "ENABLE_CHAOSFLIX_EXPORT", "false")
+            buildConfigField("boolean", "ENABLE_ENGELSYSTEM_SHIFTS", "false")
+            resValue("string", "preference_hint_engelsystem_json_export_url", """"https://engel.events.ccc.de/shifts-json-export?key=YOUR_KEY"""")
+            buildConfigField("String", "SOCIAL_MEDIA_HASHTAGS_HANDLES", """"#hackmas #hackmas26"""")
             buildConfigField("String", "TRACE_DROID_EMAIL_ADDRESS", """"tobias.preuss+39c3@googlemail.com"""")
             buildConfigField("String", "SCHEDULE_FEEDBACK_URL", """""""")
         }
