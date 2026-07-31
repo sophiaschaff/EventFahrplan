@@ -148,7 +148,7 @@ android {
             versionName = "${defaultConfig.versionName}-Hackmas-Edition"
             buildConfigField("String", "GOOGLE_PLAY_URL", """"https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"""")
             buildConfigField("String", "F_DROID_URL", """"https://f-droid.org/packages/info.metadude.android.congress.schedule"""")
-            buildConfigField("String", "SCHEDULE_URL", """"https://fahrplan.events.ccc.de/congress/2025/fahrplan/schedules/schedule.xml"""")
+            buildConfigField("String", "SCHEDULE_URL", """"https://openki.hack-mas.at/api/0/xml/schedule?region=6JRpcbs8v39PyeA48"""")
             buildConfigField("String", "SCHEDULE_FILE_FORMAT", """"schedule_v1_xml"""")
             buildConfigField("String", "EVENT_URL", """""""")
             buildConfigField("String", "EVENT_WEBSITE_URL", """"https://hack-mas.at/"""")
