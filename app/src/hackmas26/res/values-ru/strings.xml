@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Pасписание 39C3</string>
+    <string name="app_name">Pасписание Håck mas Castle 2026</string>
     <string name="app_hardcoded_subtitle">
-        27.-30-го декабря 2025, Congress Center Hamburg
-    </string>
-    <string name="copyright_logo">
-        39C3 Power Cycles. Дизайн от Nina Bender + Bernd Volmer
-    </string>
-    <string name="about_logo_content_description">
-        Логотип 39C3 Power Cycles
+        27–30 августа 2026 года, Schloss Ottenschlag
     </string>
 </resources>

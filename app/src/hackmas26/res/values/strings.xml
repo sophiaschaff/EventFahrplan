@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">39C3 Schedule</string>
+    <string name="app_name">Håck mas Castle 2026 Schedule</string>
     <string name="app_hardcoded_subtitle">
-        27.-30.August 2026, Schloss Ottenschlag
+        August 27th - 30th 2026, Schloss Ottenschlag
     </string>
-    <string name="conference_name" translatable="false">39C3</string>
-    <string name="copyright_logo">
+    <string name="conference_name" translatable="false">Håck mas Castle</string>
+    <string name="copyright_logo" translatable="false">
         Design by sqwischi, helena, pheeef und fussel
     </string>
-    <string name="about_logo_content_description">
+    <string name="about_logo_content_description" translatable="false">
         a friendly blob
     </string>
 </resources>

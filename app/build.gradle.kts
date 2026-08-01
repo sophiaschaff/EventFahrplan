@@ -162,7 +162,7 @@ android {
             buildConfigField("boolean", "ENABLE_ENGELSYSTEM_SHIFTS", "false")
             resValue("string", "preference_hint_engelsystem_json_export_url", """"https://engel.events.ccc.de/shifts-json-export?key=YOUR_KEY"""")
             buildConfigField("String", "SOCIAL_MEDIA_HASHTAGS_HANDLES", """"#hackmas #hackmas26"""")
-            buildConfigField("String", "TRACE_DROID_EMAIL_ADDRESS", """"tobias.preuss+39c3@googlemail.com"""")
+            buildConfigField("String", "TRACE_DROID_EMAIL_ADDRESS", """"so4.schaffer+hackmas@googlemail.com"""")
             buildConfigField("String", "SCHEDULE_FEEDBACK_URL", """""""")
         }
     }

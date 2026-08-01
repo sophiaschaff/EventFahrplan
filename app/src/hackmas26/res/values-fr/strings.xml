@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Programme du 39C3</string>
+    <string name="app_name">Programme du Håck mas Castle 2026</string>
     <string name="app_hardcoded_subtitle">
-        27–30 décembre 2025, Congress Center Hamburg
-    </string>
-    <string name="copyright_logo">
-        39C3 Power Cycles. Conçu par Nina Bender + Bernd Volmer
-    </string>
-    <string name="about_logo_content_description">
-        39C3 Power Cycles logo
+        27–30 août 2026, Schloss Ottenschlag
     </string>
 </resources>
