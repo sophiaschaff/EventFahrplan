@@ -85,6 +85,7 @@ android {
                 "proguard-rules/okhttp3.pro",
                 "proguard-rules/okio.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
