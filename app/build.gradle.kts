@@ -92,6 +92,7 @@ android {
     signingConfigs {
         create("cccamp2023")
         create("ccc39c3")
+        create("hackmas26")
     }
 
     val defaultDimension = "default"
@@ -145,10 +146,10 @@ android {
         }
         create("hackmas26") {
             dimension = defaultDimension
-            applicationId = "info.metadude.android.hackmas.schedule"
+            applicationId = "at.hackmas.android.schedule"
             versionName = "${defaultConfig.versionName}-Hackmas-Edition"
-            buildConfigField("String", "GOOGLE_PLAY_URL", """"https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"""")
-            buildConfigField("String", "F_DROID_URL", """"https://f-droid.org/packages/info.metadude.android.congress.schedule"""")
+            buildConfigField("String", "GOOGLE_PLAY_URL", """"https://play.google.com/store/apps/details?id=at.hackmas.android.schedule"""")
+            buildConfigField("String", "F_DROID_URL", """"https://f-droid.org/packages/at.hackmas.android.schedule"""")
             buildConfigField("String", "SCHEDULE_URL", """"https://openki.hack-mas.at/api/0/xml/schedule?region=6JRpcbs8v39PyeA48"""")
             buildConfigField("String", "SCHEDULE_FILE_FORMAT", """"schedule_v1_xml"""")
             buildConfigField("String", "EVENT_URL", """""""")
@@ -156,12 +157,6 @@ android {
             buildConfigField("String", "EVENT_POSTAL_ADDRESS", """"Schloss 1, 3631 Ottenschlag"""")
             buildConfigField("String", "SERVER_BACKEND_TYPE", """"frab"""")
             buildConfigField("boolean", "SHOW_APP_DISCLAIMER", "true")
-            buildConfigField("boolean", "ENGAGE_C3NAV_APP_INSTALLATION", "false")
-            buildConfigField("String", "C3NAV_URL", """"https://39c3.c3nav.de/l/"""")
-            buildConfigField("boolean", "ENABLE_ALTERNATIVE_SCHEDULE_URL", "false")
-            buildConfigField("boolean", "ENABLE_CHAOSFLIX_EXPORT", "false")
-            buildConfigField("boolean", "ENABLE_ENGELSYSTEM_SHIFTS", "false")
-            resValue("string", "preference_hint_engelsystem_json_export_url", """"https://engel.events.ccc.de/shifts-json-export?key=YOUR_KEY"""")
             buildConfigField("String", "SOCIAL_MEDIA_HASHTAGS_HANDLES", """"#hackmas #hackmas26"""")
             buildConfigField("String", "TRACE_DROID_EMAIL_ADDRESS", """"so4.schaffer+hackmas@googlemail.com"""")
             buildConfigField("String", "SCHEDULE_FEEDBACK_URL", """""""")
