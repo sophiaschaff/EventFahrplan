@@ -1,1 +1,1 @@
-A schedule app for visualising the openki schedule of Håck mas Castle 2026
+Eine Fahrplan-App für Håck ma’s Castle 2026
