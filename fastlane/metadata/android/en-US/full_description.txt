@@ -1,0 +1,15 @@
+https://hack-mas.at
+
+  Håck ma’s Castle ist ein offenes Schloss für alle Arten von Nerds. Wir wollen das Schloss als inklusiven Ort nutzen, als einen niederschwelligen Einstieg, um Wissen zu vermitteln und Erfahrungen auszutauschen. Håcken steht dabei für den kreativen Umgang mit Technik zum Beispiel bei Computern, Nähmaschinen, der Gesellschaft und Herdplatten (Essen ist wichtig!). 
+
+  <b>Funktionen:</b>
+  * Tagesüberblick über alle Programmpunkte (Vorträge, Workshops, Exkursionen)
+  * Detaillierte Beschreibung von Veranstaltungen lesen
+  * Veranstaltungen in persönlicher Favoritenliste verwalten
+  * Alle Veranstaltungen durchsuchen und filtern
+  * Favoritenliste exportieren
+  * Alarm für Veranstaltungen setzen
+  * Veranstaltungen in Kalender eintragen
+  * Beschreibung und Link zu Veranstaltungen mit anderen teilen
+  * Automatische, regelmäßige Aktualisierung des Programms
+  * Programmänderungen einsehen
